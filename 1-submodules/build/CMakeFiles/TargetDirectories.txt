@@ -1,5 +1,0 @@
-/home/andrewliu/projects/pybind_examples/1-submodules/build/CMakeFiles/edit_cache.dir
-/home/andrewliu/projects/pybind_examples/1-submodules/build/CMakeFiles/rebuild_cache.dir
-/home/andrewliu/projects/pybind_examples/1-submodules/build/src/CMakeFiles/testlib.dir
-/home/andrewliu/projects/pybind_examples/1-submodules/build/src/CMakeFiles/edit_cache.dir
-/home/andrewliu/projects/pybind_examples/1-submodules/build/src/CMakeFiles/rebuild_cache.dir
