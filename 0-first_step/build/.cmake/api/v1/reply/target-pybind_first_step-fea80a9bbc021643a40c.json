@@ -1,0 +1,175 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/pybind_first_step.cpython-312-x86_64-linux-gnu.so"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"__Python_add_library",
+			"python_add_library",
+			"pybind11_add_module",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"/usr/share/cmake-3.22/Modules/FindPython/Support.cmake",
+			"/usr/share/cmake-3.22/Modules/FindPython.cmake",
+			"/home/andrewliu/anaconda3/envs/pybind/lib/python3.12/site-packages/pybind11/share/cmake/pybind11/pybind11NewTools.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 267,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 580,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3330,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 312,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3335,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 274,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fPIC -fvisibility=hidden"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-flto"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fno-fat-lto-objects"
+				},
+				{
+					"fragment" : "-std=gnu++23"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "pybind_first_step_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/andrewliu/anaconda3/envs/pybind/include/python3.12"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/home/andrewliu/anaconda3/envs/pybind/lib/python3.12/site-packages/pybind11/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7,
+					7,
+					7
+				],
+				"standard" : "23"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "pybind_first_step::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-flto",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "pybind_first_step",
+	"nameOnDisk" : "pybind_first_step.cpython-312-x86_64-linux-gnu.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/example.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "MODULE_LIBRARY"
+}

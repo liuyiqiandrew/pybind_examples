@@ -1,1 +1,1 @@
-/usr/bin/c++ -fPIC -flto -shared  -o lib/pybind_first_step.cpython-312-x86_64-linux-gnu.so CMakeFiles/pybind_first_step.dir/src/example.cpp.o 
+/usr/bin/g++ -fPIC -flto -shared  -o lib/pybind_first_step.cpython-312-x86_64-linux-gnu.so CMakeFiles/pybind_first_step.dir/src/example.cpp.o 
