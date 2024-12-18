@@ -5,7 +5,6 @@ namespace test {
 
     template <typename T>
     arma::Mat<T> numpyToArma(py::array_t<T> a) {
-        /** convert numpy array to arma matrix */
         py::buffer_info arrInfo = a.request();
 
         TEST_ASSERT(arrInfo.ndim == 1 || arrInfo.ndim == 2, "Array needs dimension 1 or 2");
@@ -22,7 +21,6 @@ namespace test {
 
     template <typename T>
     py::array_t<T> armaToNumpy(arma::Mat<T> a) {
-        /** convert arma matrix to numpy array */
         size_t nrows = a.n_rows;
         size_t ncols = a.n_cols;
 
